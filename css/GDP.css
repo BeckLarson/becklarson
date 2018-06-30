@@ -94,9 +94,8 @@ h1 {
     .about-txt{
         text-align: center;
         color: white;
-        position: absolute;
+        position: relative;
     top: 2%;
-    left: 25%;
     }
     #contact{
         font-size: .5in;
