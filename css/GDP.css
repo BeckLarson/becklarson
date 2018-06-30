@@ -27,18 +27,22 @@ h1 {
     }
     body{
         background-color:rgba(34, 34, 34, 0.884);
+         }
+    .home-background{
+        background-image: url("https://larsonbeck.files.wordpress.com/2017/11/cropped-untitled.png");
+        background-size: cover;
     }
     .namelisted{
         text-align: center;
         color: white;
     }
-    .cofferender{
+    /* .cofferender{
         position: absolute;
         margin-left:0;
-        width: 100%;
+       width: 60em;
         height:105%;
         z-index:-1;
-    }
+    } */
     img.aboutpic{
        width: 30em;
        position: absolute;
@@ -62,14 +66,13 @@ h1 {
     .container .content {
         position: absolute; /* Position the background text */
         bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        background: rgba(0, 0, 0, 0.748); /* Black background with 0.5 opacity */
         color: #f1f1f1; /* Grey text */
         width: 100%; /* Full width */
         padding: 0px; /* Some padding */
     }
     .image1{
         position: relative;
-        max-width: 100%;
         width: 100%;
         float: right;
         z-index: -1;
@@ -84,7 +87,7 @@ h1 {
         width: 100%; /* Full width */
         padding: 0px; /* Some padding */
     }
-    .ddiscription{
+    .discription{
         float: left;
         text-align: center;
     }
@@ -92,9 +95,10 @@ h1 {
         text-align: center;
         color: white;
         position: absolute;
-    top: 60%;
-    left: 18%;
+    top: 2%;
+    left: 25%;
     }
     #contact{
         font-size: .5in;
     }
+   
