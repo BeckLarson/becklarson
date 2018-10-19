@@ -1,10 +1,13 @@
 html {
     background-image: url('../images/computer-device-electronics-884453.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+    font-family: 'K2D', sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+
+input{
+    text-align: center;
     font-family: 'K2D', sans-serif;
 }
 
@@ -134,3 +137,5 @@ html {
 .card{
     background-color:  rgb(29, 163, 247);
 }
+
+

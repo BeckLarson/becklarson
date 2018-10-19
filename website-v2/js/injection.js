@@ -74,7 +74,9 @@ function create() {
     }).then((text) => {
         section.innerHTML = text;
         document.getElementById("myPage").style.backgroundImage = "url('../images/white-brick-wall.jpg')";
+        document.getElementById('url').addEventListener('change', createPageUrl);
         changeBackground();
+        document.getElementById("loginBox").innerHTML = "";
     });
 }
 function loginRef() {
