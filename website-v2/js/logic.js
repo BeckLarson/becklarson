@@ -6,8 +6,12 @@ function changeBackground(){
 function createPageUrl(){
     let url = document.getElementById('url').value;
     let http = new XMLHttpRequest();
+  try {
     http.open('HEAD', url, false);
     http.send();
+  } catch (error) {
+      console.log("An error occured: " + error);
+  }
     if(url == ""){
         url =  document.getElementById('portfolio-background').style.backgroundImage = "url('https://image.pushauction.com/0/0/53f56ff7-cbf4-44a9-9556-c7f7c1462512/04b49504-b58e-49b9-957b-1a81c3cef1d9.jpg')";
     }
@@ -18,4 +22,21 @@ function createPageUrl(){
     document.getElementById('portfolio-background').style.backgroundSize = "cover";
     document.getElementById('portfolio-background').style.backgroundRepeat = "no-repeat";
     document.getElementById('portfolio-background').style.backgroundPosition = "center";
+}
+
+function createPageTitle(){
+    let title = document.getElementById('title').value;
+    if(title == ""){
+        title = "Create a Portfolio!";
+    }
+    document.getElementById('newTitleText').innerText = title;
+
+}
+
+function createPageProfilePic(){
+    let url = document.getElementById('imgUrl').value;
+    if(url == ""){
+       url = 'https://www.shareicon.net/download/2016/07/26/801997_user_512x512.png';
+    }
+    document.getElementById('imgId').src= ''+url;
 }

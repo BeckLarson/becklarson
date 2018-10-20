@@ -6,7 +6,7 @@ html {
     background-color: grey;
 }
 
-input{
+input {
     text-align: center;
     font-family: 'K2D', sans-serif;
 }
@@ -45,7 +45,6 @@ input{
     background-color: rgb(29, 163, 247);
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 5px 5px 5px #000000;
 }
 
 #page h3 {
@@ -103,39 +102,85 @@ input{
     border-radius: 20px;
     padding-left: 4.5%;
 }
-#portfolio-background{
+
+#portfolio-background {
+    text-align: center;
     margin-top: -15%;
     margin-bottom: 5%;
+    margin-left: -15%;
     position: absolute;
     padding: 40%;
+    width: 115%;
     background-color: rgb(29, 163, 247);
     border-radius: 20px;
     box-shadow: 5px 5px 5px #000000;
 }
-#boxes{
+
+#boxes {
     margin: -90%;
 }
-#boxes h1{
+
+#boxes h1 {
     box-shadow: 1px 1px 1px 2px #000000;
 }
-#boxes input{
+
+#boxes input {
     text-align: center;
 }
-#helper{
+
+#helper {
     float: right;
+    margin-top: -3%;
     max-width: 25%;
     min-width: 25%;
     font-family: 'K2D', sans-serif;
     position: absolute;
     left: 105%;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 2%;
 }
-#helper button{
+
+#helper .card:hover {
+    background-color: rgb(0, 102, 255);
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#helper button {
     color: white;
     font-family: 'K2D', sans-serif;
 }
 
-.card{
-    background-color:  rgb(29, 163, 247);
+.card {
+    background-color: rgb(29, 163, 247);
 }
 
+.card-body {
+    background-color: rgb(62, 179, 252);
+}
 
+.card-body input {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+#newTitleText{
+    margin-top: -100%;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#profilePic{
+    position: absolute;
+    left: 85%;
+    size: portrait;
+    top: 5%;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(62, 179, 252);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#profilePic img{
+    width: 6em;
+}
