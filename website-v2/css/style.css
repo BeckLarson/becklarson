@@ -150,6 +150,33 @@ input {
     font-family: 'K2D', sans-serif;
 }
 
+#helper .checkbox{
+    float: right;
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: white;
+    margin-top: 5%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: relative;
+    box-shadow: 5px 5px 5px #000000;
+}
+#helper .checkbox:checked:after{
+    content: "X";
+    background-color: #ffffff;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 1em;
+    height: 1em;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 .card {
     background-color: rgb(29, 163, 247);
 }
@@ -183,4 +210,5 @@ input {
 
 #profilePic img{
     width: 6em;
+    border-radius: 20px;
 }
