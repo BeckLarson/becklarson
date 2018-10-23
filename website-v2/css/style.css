@@ -1,8 +1,10 @@
 html {
-    background-image: url('../images/computer-device-electronics-884453.jpg');
+    background-image: url('../images/computer-device-electronics-884453.jpg') no-repeat center center fixed;
     font-family: 'K2D', sans-serif;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: grey;
 }
 
@@ -192,13 +194,13 @@ input {
 }
 
 #newTitleText{
-    margin-top: -100%;
+    margin-top: -112%;
     box-shadow: 5px 5px 5px #000000;
 }
 
 #profilePic{
     position: absolute;
-    left: 85%;
+    left: 5%;
     size: portrait;
     top: 5%;
     margin: auto;
@@ -211,4 +213,20 @@ input {
 #profilePic img{
     width: 6em;
     border-radius: 20px;
+    padding: 1%;
+}
+
+#intro{
+    margin-top: 20%;
+    margin-left: -150%;
+    max-width: 170%;
+}
+
+#intro h3{
+    font-size: 20px;
+}
+
+#education{
+    float: right;
+    text-align: left;
 }

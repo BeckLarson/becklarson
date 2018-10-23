@@ -77,6 +77,10 @@ function create() {
         document.getElementById('url').addEventListener('change', createPageUrl);
         document.getElementById('title').addEventListener('change', createPageTitle);
         document.getElementById('imgUrl').addEventListener('change', createPageProfilePic);
+        document.getElementById('introduction').addEventListener('change', createPageIntro);
+        document.getElementById('school-input').addEventListener('change', educationController);
+        document.getElementById('degree-input').addEventListener('change', educationController);
+        document.getElementById('gpa-input').addEventListener('change', educationController);
         changeBackground();
         document.getElementById("loginBox").innerHTML = "";
     });

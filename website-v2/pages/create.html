@@ -3,7 +3,18 @@
 
     <div id="profilePic">
       <img id="imgId" src="https://www.shareicon.net/download/2016/07/26/801997_user_512x512.png" alt="Profile Picture">
+      <div id="education">
+        <h5 id="school">School here!</h5>
+        <h5 id="degree">Degree here!</h5>
+        <h5 id="gpa">GPA here!</h5>
+      </div>
     </div>
+
+    <div id='intro'>
+      <h3 id="intro-text">Put your introduction here!</h3>
+    </div>
+
+    
 </div>
 <div id="helper">
   <div class="accordion" id="accordionExample">
@@ -71,7 +82,7 @@
       </div>
       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body">
-          <input type="text" placeholder="Welcome to my Portfolio!">
+          <input id="introduction" type="text" placeholder="Welcome to my Portfolio!" maxlength=310>
         </div>
       </div>
     </div>
@@ -87,10 +98,9 @@
       </div>
       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
         <div class="card-body">
-          <input type="text" placeholder="School">
-          <input type="text" placeholder="Degree">
-          <input type="url" placeholder="Logo url">
-          <input type="number" placeholder="GPA">
+          <input id="school-input" type="text" placeholder="School">
+          <input id="degree-input" type="text" placeholder="Degree">
+          <input id="gpa-input" type="number" placeholder="GPA">
           
         </div>
       </div>

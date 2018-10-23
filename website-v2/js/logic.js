@@ -40,3 +40,41 @@ function createPageProfilePic(){
     }
     document.getElementById('imgId').src= ''+url;
 }
+
+function createPageIntro(){
+    let intro = document.getElementById('introduction').value;
+    if(intro == ""){
+        intro = "Put your introduction here!";
+    }
+    document.getElementById('intro-text').innerText = intro;
+}
+
+function educationController(){
+    let key = event.target.id;
+    switch (key) {
+        case 'school-input':
+            key = document.getElementById(key).value;
+            if(key == ""){
+                document.getElementById('school').innerText = 'School here!';
+            }else{
+                document.getElementById('school').innerText = key;
+            }
+            break;
+        case 'degree-input':
+        key = document.getElementById(key).value;
+        if(key == ""){
+            document.getElementById('degree').innerText = 'Degree here!';
+        }else{
+            document.getElementById('degree').innerText = key;
+        }
+            break;
+        case 'gpa-input':
+        key = document.getElementById(key).value;
+        if(key == ""){
+            document.getElementById('gpa').innerText = 'GPA here!';
+        }else{
+            document.getElementById('gpa').innerText = key;
+        }
+            break;
+    }
+}
