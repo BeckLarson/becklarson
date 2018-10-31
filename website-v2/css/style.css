@@ -183,6 +183,36 @@ input {
     background-color: rgb(29, 163, 247);
 }
 
+#remove{
+    width: 25%;
+    background-color: red;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    border-color: transparent;
+    margin: 2%;
+    font-weight: bolder;
+}
+#add{
+    width: 25%;
+    background-color: green;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    border-color: transparent;
+    font-weight: bolder;
+}
+input#remove:active {
+    background-color: lightcoral;
+}
+button#add:active {
+    background-color: lightgreen;
+}
+
 .card-body {
     background-color: rgb(62, 179, 252);
 }
@@ -200,7 +230,7 @@ input {
 
 #profilePic{
     position: absolute;
-    left: 5%;
+    left: 2.5%;
     size: portrait;
     top: 5%;
     margin: auto;

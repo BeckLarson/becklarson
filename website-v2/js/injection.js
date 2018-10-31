@@ -90,6 +90,14 @@ function loginRef() {
     login();
 }
 function search() {
+    document.getElementById("myPage").style.backgroundImage = "url('../images/computer-device-electronics-884453.jpg')";
+    let section = document.getElementById('content');
+    document.getElementById('page').innerHTML = '';
+    fetch('pages/search.html').then((resp) => {
+        return resp.text();
+    }).then((text) => {
+        section.innerHTML = text;
+    });
 }
 function register() {
     let section = document.getElementById('content');
