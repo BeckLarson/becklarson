@@ -6,6 +6,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     background-color: grey;
+    max-width: 100%;
 }
 
 input {
@@ -45,6 +46,7 @@ input {
 
 #page h1 {
     background-color: rgb(29, 163, 247);
+    box-shadow: 5px 5px 5px #000000;
     border-radius: 25px;
     padding: 20px;
 }
@@ -52,7 +54,6 @@ input {
 #page h3 {
     margin: auto;
     margin-top: 3%;
-    box-shadow: 5px 5px 5px #000000;
     background-color: rgb(29, 163, 247);
     border-radius: 25px;
     padding: 10px;
@@ -67,7 +68,11 @@ input {
     padding: 10px;
 }
 
-#page h3:hover {
+#create{
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#create:hover {
     background-color: rgb(0, 102, 255);
     box-shadow: 5px 5px 5px #000000;
 }
@@ -165,7 +170,7 @@ input {
     box-shadow: 5px 5px 5px #000000;
 }
 #helper .checkbox:checked:after{
-    content: "X";
+    content: "✖";
     background-color: #ffffff;
     color: red;
     position: absolute;
@@ -178,6 +183,13 @@ input {
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
+#intro-text{
+    box-shadow: 5px 5px 5px #000000;
+}
+#introduction{
+    border-radius: 10%;
+    text-align: center;
+}
 
 .card {
     background-color: rgb(29, 163, 247);
@@ -189,27 +201,27 @@ input {
     color: white;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #000000;
-    border-color: transparent;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #000000;
+    border-color: rgb(218, 1, 1);
     margin: 2%;
     font-weight: bolder;
 }
-#add{
+.add{
     width: 25%;
     background-color: green;
     color: white;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #000000;
-    border-color: transparent;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #000000;
+    border-color: rgb(0, 95, 0);
     font-weight: bolder;
 }
 input#remove:active {
     background-color: lightcoral;
 }
-button#add:active {
+button.add:active {
     background-color: lightgreen;
 }
 
@@ -259,4 +271,40 @@ button#add:active {
 #education{
     float: right;
     text-align: left;
+}
+
+#skillset{
+    position: absolute;
+    left: 72.5%;
+    top: 5%;
+    margin: auto;
+    padding: 5px;
+    width: 20%;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: transparent;
+    border-color: rgb(62, 179, 252);
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+#skillset h3{
+    width: 106.5%;
+    margin-top: -3%; 
+    margin-left: -3.5%;
+    background-color: rgb(62, 179, 252);
+    border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.skills{
+    float: left;
+    text-align: center;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: rgb(62, 179, 252);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
 }

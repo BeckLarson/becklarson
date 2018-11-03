@@ -1,6 +1,6 @@
 <div id="portfolio-background">
     <h1 id="newTitleText">Create a Portfolio!</h1>
-
+    
     <div id="profilePic">
       <img id="imgId" src="https://www.shareicon.net/download/2016/07/26/801997_user_512x512.png" alt="Profile Picture">
       <div id="education">
@@ -13,6 +13,18 @@
     <div id='intro'>
       <h3 id="intro-text">Put your introduction here!</h3>
     </div>
+
+    <div id="skillset">
+        <h3>Skills</h3>
+        <h6 class="skills">Leadership</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+        <h6 class="skills">Java</h6>
+      </div>
 
     
 </div>
@@ -82,7 +94,8 @@
       </div>
       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body">
-          <input id="introduction" type="text" placeholder="Welcome to my Portfolio!" maxlength=310>
+          <textarea id="introduction" placeholder="Welcome to my Portfolio!" maxlength=610 cols="20" rows="5"></textarea>
+          <button class="add">✔</button>
         </div>
       </div>
     </div>
@@ -120,8 +133,8 @@
           <div class="form-group">
             <label for="exampleInputPassword1">Add/Remove Skill</label>
             <input id="url" type="text" class="form-control" placeholder="3d Design">
-            <button id="add" type="submit">+</button>
-            <input id="remove" type="button" value="-">
+            <button class="add" type="submit">+</button>
+            <input id="remove" type="button" value="−">
           </div>
         </div>
       </div>
