@@ -81,6 +81,8 @@ function create() {
         document.getElementById('school-input').addEventListener('change', educationController);
         document.getElementById('degree-input').addEventListener('change', educationController);
         document.getElementById('gpa-input').addEventListener('change', educationController);
+        document.getElementById('add').addEventListener('click', skillController);
+        document.getElementById('remove').addEventListener('click', skillController);
         changeBackground();
         document.getElementById("loginBox").innerHTML = "";
     });

@@ -274,6 +274,7 @@ button.add:active {
 }
 
 #skillset{
+    min-height: 15%;
     position: absolute;
     left: 72.5%;
     top: 5%;
