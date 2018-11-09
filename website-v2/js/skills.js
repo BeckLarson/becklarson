@@ -2,7 +2,8 @@ let skillList = [];
 
 function skillController() {
     let key = event.target.id;
-    let skill = document.getElementById('skillInput').value;
+    let rawSkill = document.getElementById('skillInput').value;
+    let skill = rawSkill.trim();
     let skillset = document.getElementById('skillz');
     switch (key) {
         case "add":
