@@ -8,7 +8,7 @@ function skillController() {
     switch (key) {
         case "add":
             skillset.innerHTML = '';
-            if (skillList.indexOf(skill) == -1) {
+            if (skillList.indexOf(skill) == -1 && skill !='') {
                 skillList.push(skill);
                 for (let i = 0; i < skillList.length; i++) {
                     let h6 = document.createElement("h6");
