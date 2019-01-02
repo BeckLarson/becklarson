@@ -1,0 +1,17 @@
+html{
+    background-image: url(/pictures/thumbnail_Wall_Two_One.png);
+    font-family: 'Aldrich';
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: grey;
+    max-width: 100%;
+}
+body{
+    font-family: 'Aldrich';
+    background-color: transparent;
+    margin: auto;
+    margin-right: 15%;
+    width: 50%;
+}
