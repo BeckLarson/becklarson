@@ -21,6 +21,7 @@ function PageManager(event) {
 }
 
 function ChangePage(page) {
+    console.log('Page changed ' + page);
     $.ajax({
         type: "GET",
         url: page + ".html",
