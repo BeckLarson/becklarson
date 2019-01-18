@@ -1,0 +1,65 @@
+html {
+    background-color: rgb(48, 54, 54);
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(48, 54, 54);
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(48, 54, 54);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.selection {
+    padding: 20px;
+}
+
+a {
+    font-family: 'Coiny', cursive;
+    color: white;
+}
+
+ul {
+    background-color: rgb(60, 63, 63);
+}
+
+.jumbotron{
+    font-family: 'Coiny', cursive;
+    background-color: white;
+    color: rgb(60, 63, 63);
+    padding: 30px;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.img-fluid{
+    min-width: 80%;
+    max-width: 80%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.discription{
+    font-family: 'Coiny', cursive;
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.profile-pic{
+    max-width: 50%;
+    border-radius: 70px;
+    border-color: white;
+    border-style: solid;
+}
