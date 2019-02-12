@@ -21,6 +21,7 @@ function PageManager(event) {
 }
 
 function ChangePage(page) {
+    page = page.toLowerCase();
     console.log('Page changed ' + page);
     $.ajax({
         type: "GET",
