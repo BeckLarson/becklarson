@@ -1,5 +1,3 @@
-let displayContact = false;
-
 $(function () {
     console.log('Loading in single page application');
     ChangePage("portfolio");
@@ -34,12 +32,4 @@ function ChangePage(page) {
             $('.display').html(msg);
         }
     });
-}
-
-function ShowContactInfo(){
-    displayContact = !displayContact;
-    console.log('Displaying contact info: ' + displayContact);
-    if(displayContact){
-    }else{
-    }
 }
