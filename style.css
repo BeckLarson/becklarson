@@ -63,3 +63,7 @@ ul {
     border-color: white;
     border-style: solid;
 }
+.yellow{
+    color: rgb(199, 199, 21);
+    margin: 5px;
+}
