@@ -1,4 +1,5 @@
 $(function () {
+    console.log('Loading in single page application');
     ChangePage("portfolio");
     $('.nav-link').click(PageManager);
 });
@@ -22,7 +23,7 @@ function PageManager(event) {
 
 function ChangePage(page) {
     page = page.toLowerCase();
-    console.log('Page changed ' + page);
+    console.log('Page changed to: ' + page);
     $.ajax({
         type: "GET",
         url: page + ".html",
