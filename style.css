@@ -67,3 +67,6 @@ ul {
     color: rgb(199, 199, 21);
     margin: 5px;
 }
+.yellow:hover{
+    color: white;
+}
