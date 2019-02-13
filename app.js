@@ -1,4 +1,4 @@
-$($(function () {
+$(function () {
     ChangePage("portfolio");
     $('.nav-link').click(PageManager);
 });
