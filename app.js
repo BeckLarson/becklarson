@@ -9,18 +9,29 @@ function PageManager(event) {
         case "About":
             $('.portfolio').removeClass('active');
             $('.about').addClass('active');
+            $('.unity').removeClass('active');
             $('.login').removeClass('active');
             ChangePage(page);
             break;
-        case "Portfolio":
-            $('.about').removeClass('active');
-            $('.portfolio').addClass('active');
-            $('.login').removeClass('active');
-            ChangePage(page);
-            break;
-        case "Login":
+            case "Portfolio":
+                $('.about').removeClass('active');
+                $('.portfolio').addClass('active');
+                $('.unity').removeClass('active');
+                $('.login').removeClass('active');
+                ChangePage(page);
+                break;
+            case "Products":
+                $('.about').removeClass('active');
+                $('.portfolio').removeClass('active');
+                $('.unity').removeClass('active');
+                $('.unity').addClass('active');
+                $('.login').removeClass('active');
+                ChangePage(page);
+                break;
+            case "Login":
             $('.about').removeClass('active');
             $('.portfolio').removeClass('active');
+            $('.unity').removeClass('active');
             $('.login').addClass('active');
             ChangePage(page);
             $(function(){ // let page load before setting listeners
